@@ -15,6 +15,7 @@ public class Reflect {
 		Field f[] = obj.getDeclaredFields();
 		Constructor c[] = obj.getDeclaredConstructors();
 		Method m[] = obj.getDeclaredMethods();
+//		hii this is Asit Ranjan
 		
 		System.out.println(className);
 		for(int i=0; i<className.length(); i++) System.out.print("-");
